@@ -10,7 +10,7 @@
 
 **A complete, production-ready 100% Vegetarian Restaurant Order Management System**
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Tech Stack](#-tech-stack) • [Contributing](#-contributing)
+[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Tech Stack](#tech-stack) • [Contributing](#contributing)
 
 </div>
 
