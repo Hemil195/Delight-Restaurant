@@ -1,4 +1,4 @@
-@model RestaurantOrderSystem.Models.ViewModels.AdminDashboardViewModel
+﻿@model RestaurantOrderSystem.Models.ViewModels.AdminDashboardViewModel
 
 @{
     ViewBag.Title = "Admin Dashboard";
@@ -82,11 +82,11 @@
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
                         <div>
-                            <div class="h5">@Model.TodaysRevenue.ToString("C")</div>
+                            <div class="h5">₹@Model.TodaysRevenue</div>
                             <div>Today's Revenue</div>
                         </div>
                         <div class="align-self-center">
-                            <i class="fas fa-dollar-sign fa-2x"></i>
+                            <i class="fas fa-rupee-sign fa-2x"></i>
                         </div>
                     </div>
                 </div>
@@ -126,7 +126,7 @@
                                         <tr>
                                             <td><strong>#@order.OrderID</strong></td>
                                             <td>@order.CustomerName</td>
-                                            <td>@order.TotalAmount.ToString("C")</td>
+                                            <td>₹@order.TotalAmount</td>
                                             <td>
                                                 <span class="badge bg-@(GetStatusColor(order.Status))">
                                                     @order.Status.ToString()
@@ -137,6 +137,7 @@
                                                 @Html.ActionLink("Details", "OrderDetails", "Admin", new { id = order.OrderID }, new { @class = "btn btn-sm btn-outline-primary" })
                                             </td>
                                         </tr>
+
                                     }
                                 </tbody>
                             </table>

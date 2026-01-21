@@ -1,26 +1,26 @@
-# 🥗 Veg Delight - Restaurant Order System
+# Veg Delight - Restaurant Order System
 
 <div align="center">
 
-![ASP.NET MVC](https://img.shields.io/badge/ASP.NET%20MVC-5.2-blue? style=for-the-badge&logo=dotnet)
-![. NET Framework](https://img.shields.io/badge/.NET%20Framework-4.8-purple?style=for-the-badge&logo=dotnet)
+![ASP.NET MVC](https://img.shields.io/badge/ASP.NET%20MVC-5.2-blue?style=for-the-badge&logo=dotnet)
+![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.8-purple?style=for-the-badge&logo=dotnet)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-Database-red?style=for-the-badge&logo=microsoftsqlserver)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-blueviolet?style=for-the-badge&logo=bootstrap)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **A complete, production-ready 100% Vegetarian Restaurant Order Management System**
 
-[Features](#-features) • [Demo](#-screenshots) • [Installation](#-installation) • [Usage](#-usage) • [Tech Stack](#-tech-stack) • [Contributing](#-contributing)
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Tech Stack](#-tech-stack) • [Contributing](#-contributing)
 
 </div>
 
 ---
 
-## 📋 Overview
+## Overview
 
-**Veg Delight** is a full-featured restaurant order management system designed specifically for vegetarian restaurants. Built with ASP.NET MVC (. NET Framework 4.8), it provides a complete solution for managing menus, processing orders, and tracking restaurant operations with Indian Rupee (₹) pricing.
+**Veg Delight** is a full-featured restaurant order management system designed specifically for vegetarian restaurants. Built with ASP.NET MVC (.NET Framework 4.8), it provides a complete solution for managing menus, processing orders, and tracking restaurant operations with Indian Rupee (₹) pricing.
 
-### ✨ Key Highlights
+### Key Highlights
 
 - 🌿 **Pure Vegetarian Menu** - Curated Indian vegetarian cuisine
 - 🛒 **Online Ordering** - Complete shopping cart with checkout
@@ -30,9 +30,9 @@
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🍽️ Customer Features
+### Customer Features
 
 | Feature | Description |
 |---------|-------------|
@@ -43,7 +43,7 @@
 | **Featured Items** | Discover chef's special dishes |
 | **Free Delivery** | Free delivery on orders above ₹500 |
 
-### 👨‍💼 Admin Features
+### Admin Features
 
 | Feature | Description |
 |---------|-------------|
@@ -53,7 +53,7 @@
 | **Status Updates** | Update order status (Pending → Confirmed → Preparing → Ready → Completed) |
 | **Reports** | Track daily revenue and popular items |
 
-### 🍛 Sample Menu
+### Sample Menu
 
 | Category | Item | Price |
 |----------|------|-------|
@@ -69,12 +69,12 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **ASP.NET MVC 5** - Web application framework
-- **C# (. NET Framework 4.8)** - Primary programming language
-- **ADO.NET / Entity Framework** - Database operations
+- **C# (.NET Framework 4.8)** - Primary programming language
+- **ADO.NET** - Database operations
 - **SQL Server** - Database management
 
 ### Frontend
@@ -107,7 +107,7 @@ RestaurantOrderSystem/
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 
@@ -127,11 +127,11 @@ RestaurantOrderSystem/
    - Open `RestaurantOrderSystem.sln`
 
 3. **Configure Database Connection**
-   - Update `Web.config` with your SQL Server connection string: 
+   - Update `Web.config` with your SQL Server connection string:
    ```xml
    <connectionStrings>
      <add name="DefaultConnection"
-          connectionString="Data Source=YOUR_SERVER;Initial Catalog=ROS;Integrated Security=True"
+          connectionString="Data Source=YOUR_SERVER;Initial Catalog=ROS;Integrated Security=True;Encrypt=False"
           providerName="System.Data.SqlClient" />
    </connectionStrings>
    ```
@@ -147,7 +147,7 @@ RestaurantOrderSystem/
 
 ---
 
-## 📖 Usage
+## Usage
 
 ### Key Pages
 
@@ -180,23 +180,7 @@ Access the admin panel to manage your restaurant:
 
 ---
 
-## 📸 Screenshots
-
-### Home Page
-The welcoming home page displays featured vegetarian dishes and restaurant information.
-
-### Menu Page
-Browse through categories including Appetizers, Main Course, Breads, Beverages, and Desserts.
-
-### Shopping Cart
-Manage your order with quantity updates and see real-time pricing in ₹.
-
-### Admin Dashboard
-Comprehensive dashboard showing orders, revenue, and restaurant metrics.
-
----
-
-## 🔧 Configuration
+## Configuration
 
 ### Customization Options
 
@@ -218,7 +202,7 @@ Comprehensive dashboard showing orders, revenue, and restaurant metrics.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -239,23 +223,15 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 📁 Additional Resources
+## Additional Resources
 
 - **Windows Forms Version**:  See `/RestaurantOrderSystem/WindowsFormsVersion/` for a desktop application variant
 - **Setup Scripts**: Check `Setup_WindowsForms.bat` for alternative setup options
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available for educational and personal use.
 
----
 
-<div align="center">
-
-**Built with ❤️ for vegetarian food lovers and restaurant owners**
-
-🥗 *Pure Veg • Fresh Ingredients • Authentic Taste* 🥗
-
-</div>
